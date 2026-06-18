@@ -11,10 +11,10 @@
     </h1>
     <table border="1" align="center" cellpading = "0" cellpadding="10px">
       <tr>
-            <td><a href="index.html">Beranda </a></td>
-            <td><a href="biodata.html">Biodata</a></td>
-            <td><a href="tentang.html">Tentang</a></td>
-            <td><a href="mahasiswa.html">Data Mahasiswa</a></td>
+            <td><a href="index.php">Beranda </a></td>
+            <td><a href="biodata.php">Biodata</a></td>
+            <td><a href="tentang.php">Tentang</a></td>
+            <td><a href="mahasiswa.php">Data Mahasiswa</a></td>
             
         </tr>  
     </table>

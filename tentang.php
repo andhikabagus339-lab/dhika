@@ -8,10 +8,10 @@
    <body>
         <p> Nama saya andhika bagus setiawan, saya sekarang kuliah di UNIVERSITAS MUHAMMADIYAH SEMARANG </p>
     <nav>
-        <a href="index.html" class="active">Beranda</a>
-        <a href="biodata.html">Biodata</a>
-        <a href="tentang.html">Tentang</a>
-        <a href="mahasiswa.html">Data Mahasiswa</a></td>
+        <a href="index.php" class="active">Beranda</a>
+        <a href="biodata.php">Biodata</a>
+        <a href="tentang.php">Tentang</a>
+        <a href="mahasiswa.php">Data Mahasiswa</a></td>
        
     </nav>
 </body>
