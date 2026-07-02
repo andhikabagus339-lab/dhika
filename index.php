@@ -1,6 +1,6 @@
 <html>
    <head>
-    <title>
+    <titl<e>
         WEB TI UNIMUS 2026
         <link rel="stylesheet" href="assets/css/style.css">
     </title>
