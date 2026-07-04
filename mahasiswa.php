@@ -1,25 +1,45 @@
+<?php
+
+require 'fungsi.php';
+$query = "SELECT * FROM mahasiswa";
+$mahasiswas =tampildata($query); /// wadah berisi data 
+
+
+
+////ambil data (fetch) dari lemari
+///mysqli_fetch_row
+///mysqli_fetch_assoc
+///mysqli_fetch_array
+///mysqli_fetch_object
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Mahasiswa</title>
+    <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1 align="center">WEB TI UNIMUS 2026 OYEE</h1>
+    <h1 align="center">
+        WEB TI UNIMUS 2026 OYEE
+    </h1>
 
-    <nav>
+    <nav class="navbar">
         <a href="index.php">Home</a>
         <a href="biodata.php">Biodata</a>
         <a href="kontak.php">Kontak</a>
         <a href="mahasiswa.php">Data Mahasiswa</a>
     </nav>
 
-    <h2>Data Mahasiswa</h2>
-
+    <h2>
+        Data Mahasiswa
+    </h2>
     <div class="btn-container">
         <a href="tambahdata.php" class="btn">+ Tambah Data</a>
     </div>
@@ -35,32 +55,28 @@
             <th>Foto</th>
             <th>Aksi</th>
         </tr>
-        <tr>
-            <td align="center">1</td>
-            <td>Adelia eka rahmawati</td>
-            <td>13242520036</td>
-            <td align="center">Teknologi Informasi</td>
-            <td align="center">adellia3210@gmail.com</td>
-            <td align="center">0898772537354</td>
-            <td><img src="assets/img/foto.jpg" width="70px"></td>
-            <td>
-                <a href="editdata.php"><button>Edit</button></a>
-                <a href="deletdata.php"><button>Hapus</button></a>
-            </td>
-        </tr>
-        <tr>
-            <td align="center">2</td>
-            <td>Ghania Hafsha</td>
-            <td>13242520036</td>
-            <td align="center">Teknologi Informasi</td>
-            <td>ghania321@gmail.com</td>
-            <td align="center">08983321427</td>
-            <td><img src="assets/img/foto2.jpg" width="70px"></td>
-            <td>
-                <a href="editdata.php"><button>Edit</button></a>
-                <a href="deletdata.php"><button>Hapus</button></a>
-            </td>
-        </tr>
+        <?php
+        $no = 1;
+        foreach ($mahasiswas as $mhs)
+            {
+        
+        ?>
+            <tr>
+                <td align="center"><?php echo $no++; ?></td>
+                <td><?php echo $mhs["nama"]; ?></td>
+                <td><?php echo $mhs["nim"]; ?></td>
+                <td align="center"><?php echo $mhs["jurusan"]; ?></td>
+                <td align="center"><?php echo $mhs["email"]; ?></td>
+                <td align="center"><?php echo $mhs['nomor_hp']; ?></td>
+                <td><img src="assets/img/<?php echo $mhs["foto"]; ?>" width="70px"></td>
+                <td>
+                    <a href="editdata.php?id=<?php echo $mhs["id"]; ?>"><button>Edit</button></a>
+                    <a href="deletdata.php?id=<?php echo $mhs["id"]; ?>"><button>Hapus</button></a>
+                </td>
+            </tr>
+        <?php
+        }
+        ?>
     </table>
 
     <hr>
@@ -90,4 +106,5 @@
     </table>
 
 </body>
+
 </html>
