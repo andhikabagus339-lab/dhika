@@ -1,21 +1,31 @@
+<!DOCTYPE html>
 <html>
-   <head>
-    <title>
-        WEB TI UNIMUS 2026
-        <link rel="stylesheet" href="assets/css/style.css">
-    </title>
-   </head> 
-   <body>
-        <p> Andhika Bagus Setiawan </p>
-        <p> 13242520023 </p>
-        <p> Teknologi Informasi </p>     
-        <p> saya suka membuat sesuatu yang baru </p>  
-    <nav>
-        <a href="index.php" class="active">Beranda</a>
+
+<head>
+    <title>Biodata</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="index.php">Home</a>
         <a href="biodata.php">Biodata</a>
-        <a href="tentang.php">Tentang</a>
-        <a href="mahasiswa.php">Data Mahasiswa</a></td>
-       
+        <a href="kontak.php">Kontak</a>
+        <a href="mahasiswa.php">Data Mahasiswa</a>
     </nav>
+    <div class="biodata-container">
+        <h2>Biodata</h2>
+
+        <p>
+            Nama: Andhika Bagus Setiawan<br>
+            NIM: 13242520023<br>
+            Kelas: A<br>
+            Prodi: Teknologi Informasi
+        </p>
+    </div>
+
 </body>
+
 </html>

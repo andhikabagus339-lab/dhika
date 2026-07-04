@@ -1,7 +1,7 @@
 <?php
 
 //API
-$koneksi = mysqli_connect("localhost", "root", "", "niaweekly");
+$koneksi = mysqli_connect("localhost", "root", "", "khawewekly");
 function tampildata($query)
 {
     global $koneksi;
