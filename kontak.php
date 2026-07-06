@@ -10,7 +10,7 @@
 
 <nav class="navbar">
     <a href="index.php">Home</a>
-    <a href="profil.php">Profil</a>
+    <a href="biodata.php">Biodata</a>
     <a href="kontak.php">Kontak</a>
     <a href="mahasiswa.php">Data Mahasiswa</a>
 </nav>
@@ -18,8 +18,8 @@
 <div class="container">
     <h1>Halaman Kontak</h1>
 
-    <p>Email : ghaniahafsha101@gmail.com</p>
-    <p>Instagram : @ghaniahafsha</p>
+    <p>Email : andhikabagus339@gmail.com</p>
+    <p>Instagram : @dhikaaffh_
 </div>
 
 </body>

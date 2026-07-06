@@ -21,7 +21,7 @@ $mahasiswas = tampildata($query);
 
 <nav class="navbar">
     <a href="index.php">Home</a>
-    <a href="profil.php">Profil</a>
+    <a href="biodata.php">Biodata</a>
     <a href="kontak.php">Kontak</a>
     <a href="mahasiswa.php">Data Mahasiswa</a>
 </nav>

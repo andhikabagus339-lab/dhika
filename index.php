@@ -7,8 +7,7 @@
     <title>Home | TI UNIMUS</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
-
+    <link href="https://i.pinimg.com/originals/03/be/be/03bebe8ae8405ab7f7b43b9703e6165a.jpg""rel="stylesheet">
     <style>
         *{
             margin:0;
@@ -113,7 +112,7 @@
 
         <div class="menu">
             <a href="index.php" class="active">🏠 Home</a>
-            <a href="profil.php">👤 Biodata</a>
+            <a href="Biodata.php">👤 Biodata</a>
             <a href="kontak.php">📞 Kontak</a>
             <a href="mahasiswa.php">🎓 Data Mahasiswa</a>
         </div>
@@ -127,14 +126,12 @@
         <img src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/720x0/webp/photo/2025/08/28/1067290352.png" alt="Foto">
 
         <p>
-            Halo, saya <b>Ghania Hafsha</b> dengan NIM
-            <b>13242520032</b>, mahasiswa Program Studi
+            Halo, saya <b>Andhika Bagus Setiawan</b> dengan NIM
+            <b>13242520023</b>, mahasiswa Program Studi
             <b>Teknologi Informasi</b>.
 
             Saya memiliki minat di bidang teknologi, pemrograman,
-            dan pengembangan website. Saya senang mempelajari HTML,
-            CSS, JavaScript, serta berbagai teknologi baru yang
-            mendukung perkembangan dunia digital.
+            dan pengembangan website. Saya senang mempelajari HTML, DLL
         </p>
 
         <div class="welcome">
